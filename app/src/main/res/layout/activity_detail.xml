@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#EADFB4"
+    >
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Barang"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:paddingBottom="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/price"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:paddingBottom="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/price"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:paddingBottom="50sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <TextView
+        android:id="@+id/diameter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="diameter"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:paddingBottom="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/price"
+        app:layout_constraintVertical_bias="0.363"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="color"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:paddingBottom="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diameter"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Bagikan" />
+
+</LinearLayout >

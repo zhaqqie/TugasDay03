@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:gravity="center"
+        android:background="#EADFB4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SILAHKAN PILIH SEPATU UNTUK MELIHAT DESKRIPSI"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="Sepatu Bola"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_margin="20dp"
+            android:id="@+id/img6"
+            android:layout_width="200dp"
+            android:layout_height="249dp"
+            android:src="@drawable/sepatubola" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text="Sepatu Converse"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="200dp"
+            android:layout_height="241dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/sepatuconverse" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text="Sepatu Jordan"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_margin="20dp"
+            android:id="@+id/img8"
+            android:layout_width="200dp"
+            android:layout_height="223dp"
+            android:src="@drawable/sepatujordan" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="Sepatu Running"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_margin="20dp"
+            android:id="@+id/img9"
+            android:layout_width="200dp"
+            android:layout_height="243dp"
+            android:src="@drawable/sepaturunning" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="Sepatu Vans"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_margin="20dp"
+            android:id="@+id/img10"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/sepatuvans" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
