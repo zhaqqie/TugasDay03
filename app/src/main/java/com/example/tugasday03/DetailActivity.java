@@ -57,13 +57,12 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
 
     @Override
     public void onClick(View v) {
-        // Memanggil fungsi untuk membagikan teks
+
         shareText();
     }
 
-    // Metode untuk membagikan teks
     private void shareText() {
-        // Mendapatkan teks dari TextView
+
 
         String text1 = name.getText().toString();
         String text2 = price.getText().toString();
@@ -71,19 +70,19 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
         String text4 = color.getText().toString();
         String gabungan = text1 + text2 + text3 + text4;
 
-        // Membuat Intent dengan tindakan ACTION_SEND
+
         Intent intent = new Intent(Intent.ACTION_SEND);
-        // Menetapkan tipe konten yang akan dibagikan (teks)
+
         intent.setType("text/plain");
-        // Menambahkan teks ke Intent
+
         intent.putExtra(Intent.EXTRA_TEXT, gabungan);
 
-        // Memeriksa apakah ada aplikasi yang dapat menangani intent ini
+
         if (intent.resolveActivity(getPackageManager()) != null) {
-            // Memulai aktivitas untuk memilih aplikasi untuk berbagi
+
             startActivity(Intent.createChooser(intent, "Bagikan teks melalui"));
         } else {
-            // Menampilkan pesan kesalahan jika tidak ada aplikasi yang dapat menangani intent ini
+
             Toast.makeText(this, "Tidak ada aplikasi yang dapat menangani intent ini", Toast.LENGTH_SHORT).show();
         }
     }
