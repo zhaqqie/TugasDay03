@@ -19,15 +19,17 @@
         android:text="Jack Sport Store"
         android:textSize="40sp"
         android:textStyle="bold"
+
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="48dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SILAHKAN PILIH KEBUUTUHAN OLAHRAGA ANDA!!"
+        android:text="SILAHKAN PILIH KEBUTUHAN OLAHRAGA ANDA!!"
         android:textSize="16sp"
         android:gravity="center"
+        android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/btBola"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.247"
