@@ -14,7 +14,6 @@ public class Detail implements Parcelable {
     private String diameter;
     private String color;
     private String desc;
-    private Button shareButton;
 
     public Detail() {
     }
@@ -91,14 +90,6 @@ public class Detail implements Parcelable {
 
     public void setDesc(String desc) {
         this.desc = desc;
-    }
-
-    public Button getShareButton() {
-        return shareButton;
-    }
-
-    public void setShareButton(Button shareButton) {
-        this.shareButton = shareButton;
     }
 
 }
