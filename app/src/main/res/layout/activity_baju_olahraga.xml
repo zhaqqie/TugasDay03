@@ -36,6 +36,7 @@
             android:id="@+id/img11"
             android:layout_width="200dp"
             android:layout_height="249dp"
+            android:paddingBottom="100dp"
             android:src="@drawable/bajubasket" />
 
         <TextView
@@ -52,6 +53,7 @@
             android:id="@+id/img12"
             android:layout_width="200dp"
             android:layout_height="241dp"
+            android:paddingBottom="100dp"
             android:src="@drawable/bajubola" />
 
         <TextView
@@ -68,6 +70,7 @@
             android:id="@+id/img13"
             android:layout_width="200dp"
             android:layout_height="223dp"
+            android:paddingBottom="100dp"
             android:src="@drawable/bajutenis" />
 
         <TextView
@@ -84,6 +87,7 @@
             android:id="@+id/img14"
             android:layout_width="200dp"
             android:layout_height="243dp"
+            android:paddingBottom="100dp"
             android:src="@drawable/bajuvoli" />
 
         <TextView
@@ -100,6 +104,7 @@
             android:id="@+id/img15"
             android:layout_width="200dp"
             android:layout_height="200dp"
+            android:paddingBottom="100dp"
             android:src="@drawable/bajusepeda" />
 
     </LinearLayout>

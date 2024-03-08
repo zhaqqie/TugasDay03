@@ -37,6 +37,7 @@
             android:id="@+id/img6"
             android:layout_width="200dp"
             android:layout_height="249dp"
+            android:paddingBottom="100dp"
             android:src="@drawable/sepatubola" />
 
         <TextView
@@ -50,9 +51,10 @@
 
         <ImageView
             android:id="@+id/img7"
-            android:layout_width="200dp"
-            android:layout_height="241dp"
+            android:layout_width="309dp"
+            android:layout_height="293dp"
             android:layout_margin="20dp"
+            android:paddingBottom="105dp"
             android:src="@drawable/sepatuconverse" />
 
         <TextView
@@ -65,10 +67,11 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:layout_margin="20dp"
             android:id="@+id/img8"
             android:layout_width="200dp"
             android:layout_height="223dp"
+            android:layout_margin="20dp"
+            android:paddingBottom="100dp"
             android:src="@drawable/sepatujordan" />
 
         <TextView
@@ -85,6 +88,7 @@
             android:id="@+id/img9"
             android:layout_width="200dp"
             android:layout_height="243dp"
+            android:paddingBottom="100dp"
             android:src="@drawable/sepaturunning" />
 
         <TextView
@@ -101,6 +105,7 @@
             android:id="@+id/img10"
             android:layout_width="200dp"
             android:layout_height="200dp"
+            android:paddingBottom="100dp"
             android:src="@drawable/sepatuvans" />
 
 

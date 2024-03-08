@@ -37,6 +37,7 @@
             android:layout_width="200dp"
             android:layout_height="249dp"
             android:layout_margin="20dp"
+            android:paddingBottom="100dp"
             android:src="@drawable/bolagolf" />
 
         <TextView
@@ -53,6 +54,7 @@
             android:id="@+id/img2"
             android:layout_width="200dp"
             android:layout_height="241dp"
+            android:paddingBottom="100dp"
             android:src="@drawable/bolakaki" />
 
         <TextView
@@ -69,6 +71,7 @@
             android:id="@+id/img3"
             android:layout_width="200dp"
             android:layout_height="223dp"
+            android:paddingBottom="100dp"
             android:src="@drawable/bolatakraw" />
 
         <TextView
@@ -81,10 +84,11 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:layout_margin="20dp"
             android:id="@+id/img4"
-            android:layout_width="200dp"
-            android:layout_height="243dp"
+            android:layout_width="129dp"
+            android:layout_height="220dp"
+            android:layout_margin="20dp"
+            android:paddingBottom="100dp"
             android:src="@drawable/bolatenis" />
 
         <TextView
@@ -101,6 +105,7 @@
             android:id="@+id/img5"
             android:layout_width="200dp"
             android:layout_height="200dp"
+            android:paddingBottom="100dp"
             android:src="@drawable/bolavoli" />
 
     </LinearLayout>
