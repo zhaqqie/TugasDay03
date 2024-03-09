@@ -61,10 +61,10 @@ public class BolaActivity extends AppCompatActivity implements View.OnClickListe
         }else if (v.getId() == R.id.img2) {
 
 
-            detail.setName("- Bola Kaki Adidas");
+            detail.setName("- Bola Basket Spokey");
             detail.setPrice("- Rp.355.000");
-            detail.setDiameter("- Diameter : 17cm");
-            detail.setColor("- Warna Biru");
+            detail.setDiameter("- Diameter : 20cm");
+            detail.setColor("- Warna Merah Bata");
 
             Intent intent = new Intent(this, DetailActivity.class);
             intent.putExtra(DetailActivity.KEY_DATA, detail);
@@ -73,10 +73,10 @@ public class BolaActivity extends AppCompatActivity implements View.OnClickListe
         }else if (v.getId() == R.id.img3) {
 
 
-            detail.setName("- Bola Takraw Bambu");
-            detail.setPrice("- Rp.125.000");
-            detail.setDiameter("- Dianeter : 10cm");
-            detail.setColor("- Warna Coklat");
+            detail.setName("- Bola Kaki Adidas");
+            detail.setPrice("- Rp.325.000");
+            detail.setDiameter("- Dianeter : 16cm");
+            detail.setColor("- Warna Putih Hitam");
 
             Intent intent = new Intent(this, DetailActivity.class);
             intent.putExtra(DetailActivity.KEY_DATA, detail);

@@ -76,7 +76,7 @@ public class sepatuActivity extends AppCompatActivity implements View.OnClickLis
             detail.setName("- Bola Jordan");
             detail.setPrice("- Rp.699.000");
             detail.setDiameter("- Size : 43");
-            detail.setColor("- Warna Kuning");
+            detail.setColor("- Warna Kuning Hitam");
 
             Intent intent = new Intent(this, DetailActivity.class);
             intent.putExtra(DetailActivity.KEY_DATA, detail);
