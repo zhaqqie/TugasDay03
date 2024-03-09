@@ -73,7 +73,7 @@ public class sepatuActivity extends AppCompatActivity implements View.OnClickLis
         }else if (v.getId() == R.id.img8) {
 
 
-            detail.setName("- Bola Jordan");
+            detail.setName("- Sepatu Jordan");
             detail.setPrice("- Rp.699.000");
             detail.setDiameter("- Size : 43");
             detail.setColor("- Warna Kuning Hitam");

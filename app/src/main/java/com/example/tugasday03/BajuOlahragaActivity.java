@@ -85,7 +85,7 @@ public class BajuOlahragaActivity extends AppCompatActivity implements View.OnCl
         }else if (v.getId() == R.id.img14) {
 
 
-            detail.setName("- Bola Voli");
+            detail.setName("- Baju Voli");
             detail.setPrice("- Rp.147.000");
             detail.setDiameter("- Size : S");
             detail.setColor("- Warna Biru Dongker");
@@ -97,7 +97,7 @@ public class BajuOlahragaActivity extends AppCompatActivity implements View.OnCl
         }else if (v.getId() == R.id.img15) {
 
 
-            detail.setName("- Bola Bersepeda");
+            detail.setName("- Bajua Bersepeda");
             detail.setPrice("- Rp.215.000");
             detail.setDiameter("- Size : L");
             detail.setColor("- Warna Abu-Abu Merah");
