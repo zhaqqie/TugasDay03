@@ -97,7 +97,7 @@ public class BajuOlahragaActivity extends AppCompatActivity implements View.OnCl
         }else if (v.getId() == R.id.img15) {
 
 
-            detail.setName("- Bajua Bersepeda");
+            detail.setName("- Baju Bersepeda");
             detail.setPrice("- Rp.215.000");
             detail.setDiameter("- Size : L");
             detail.setColor("- Warna Abu-Abu Merah");
